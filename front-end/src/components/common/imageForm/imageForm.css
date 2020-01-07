@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  background-color: #202020;
+  margin: 3em;
+  padding: 3em 3em 1em 3em;
+  width: 100%;
+  border-radius: 2px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.title .icon {
+  height: 100px;
+  width: 100px;
+}
+
+.title h2 {
+  text-align: left;
+}
+
+.title {
+  flex: 100%;
+}
+
+.form-image {
+  flex: 65%;
+  background-color: #171717;
+}
+
+.form-content {
+  flex: 30%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #171717;
+  border-left: 0.5em solid #202020;
+}

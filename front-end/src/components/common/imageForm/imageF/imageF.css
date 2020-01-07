@@ -1,0 +1,11 @@
+.image-container {
+  padding: 2em;
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+#image-show {
+  height: initial;
+  max-height: 400px;
+}

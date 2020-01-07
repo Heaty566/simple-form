@@ -17,8 +17,9 @@ router.get("/:id", async (req, res) => {
 
 router.post("/add", [upload.single("image")], async (req, res) => {
   let image = new Image(_.pick(req.body, ["title", "price"]));
+  image.urlImage = req.file.filename;
   await image.save();
-  res.send(image);
+  res.status(200);
 });
 
 module.exports = router;

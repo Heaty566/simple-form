@@ -1,0 +1,11 @@
+.form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  border: none;
+  cursor: text;
+  text-indent: 1em;
+  background-color: #3b3b3b;
+  margin-bottom: 1em;
+}

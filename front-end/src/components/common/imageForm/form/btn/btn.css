@@ -1,0 +1,9 @@
+.btn-form {
+  border-radius: 2px;
+  border: none;
+  background-color: #3b3b3b;
+  width: 50%;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+}
